@@ -1,0 +1,124 @@
+*{
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerlog{
+  width: 100%;
+  height: 95vh;
+  background-image: url("imagebank.jpg");
+  color: rgb(121, 123, 225);
+  background-image: url(key-3087898_640.jpg);
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.form-box{
+  background-color: rgb(243, 240, 247);
+  /* padding: 50px 60px 70px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  min-width: 200px;
+  height: 60vh;
+}
+h1{
+  font-size: 30px;
+
+}
+.input-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: azure;
+  max-height: 50px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.input-field input {
+  height: 5vh;
+  width: 100%;
+  padding: 7Px;
+  outline: none;
+  border: 1px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+
+}
+.con-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.con-btn button{
+  padding: 5px;
+  border-radius: 2px;
+  background-color: white;
+  border-top: 2px;
+  border-bottom: 1px;
+  color: rgb(94, 92, 118);
+  border-radius: 4px;
+  background-color: rgb(103, 103, 242);
+  color: white;
+  cursor: pointer;
+  transition:all 0.9s;
+
+}
+
+.con-btn button.disable{
+  /* padding: 5px;
+  border-radius: 2px;
+  background-color: white;
+  border-top: 2px;
+  border-bottom: 1px; */
+  color: rgb(94, 92, 118);
+  border-radius: 4px;
+  background-color: rgb(233, 233, 238);
+}
+i{
+  color: rgba(94, 92, 118, 0.709);
+  font-size: 15px;
+
+}
+
+.back{
+  background-color: brown;
+}
+ div a{
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(94, 92, 118);
+  /* margin-right:40px ; */
+  
+
+
+  
+}
+ p {
+  font-size: 15px;
+  text-decoration: none;
+  text-decoration: none;
+
+}

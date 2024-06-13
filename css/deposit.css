@@ -1,0 +1,56 @@
+
+.adddeposit-div {
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  gap:20px ;
+}
+.adddeposit-div div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.adddeposit-div div input{
+  /* max-width: 470px; */
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+
+}
+.deposit-div{
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  gap:20px ;
+
+}
+.deposit-div div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.deposit-div div input{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
+.deposit-div div button{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
+.deposit-btn{
+  margin-bottom: -20.5px;
+  background-color: rgb(18, 108, 243);
+  color: white;
+}

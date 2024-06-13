@@ -1,0 +1,108 @@
+.heading{
+  /* font-family: "Cormorant Garamond", serif; */
+  font-family: "Cormorant Garamond", serif;
+
+}
+.addclient-div {
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  gap:20px ;
+}
+.addclient-div div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.addclient-div div input{
+  /* max-width: 470px; */
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+}
+.type-container div{
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 14px;
+}
+.type-container div input{
+  font-size: 5px;
+}
+.type-container{
+  display: flex;
+  flex-direction: column;
+  /* gap: 3px; */
+  margin-bottom: 10px;
+}
+.client-div{
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  gap:20px ;
+
+}
+.client-div div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.client-div div input{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
+.client-div div button{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
+.add-btn{
+  margin-bottom: -20.5px;
+  background-color: rgb(18, 108, 243);
+  color: white;
+}
+.filter-div{
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  gap:20px ;
+}
+.filter-div div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.filter-div div button{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
+.log-btn{
+  margin-bottom: -20.5px;
+  background-color: rgb(18, 108, 243);
+  color: white;
+}
+.filter-div div input{
+  width: 100%;
+  outline-style: none;
+  border: solid 0.6px rgba(59, 57, 57, 0.525);
+  border-radius: 2px;
+  padding: 3px;
+  justify-content: center;
+}
