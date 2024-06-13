@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  To make use of radio buttons to select options in a web application, you can use HTML for the radio button elements and JavaScript to handle the selection and perform actions based on the selected option. Here's a simple example:
+
+HTML:
+html
+<form id="optionsForm">
+    <input type="radio" id="option1" name="option" value="option1">
+    <label for="option1">Option 1</label><br>
+    <input type="radio" id="option2" name="option" value="option2">
+    <label for="option2">Option 2</label><br>
+    <input type="radio" id="option3" name="option" value="option3">
+    <label for="option3">Option 3</label><br>
+</form>
+<button onclick="handleSelection()">Submit</button>
+
+<div id="selectedOption"></div>
+
+<script>
+// JavaScript:
+// javascript
+function handleSelection() {
+    let selectedOption = document.querySelector('input[name="option"]:checked');
+    
+    if (selectedOption) {
+        let selectedValue = selectedOption.value;
+        console.log(selectedValue);
+        document.getElementById('selectedOption').textContent = "Selected option: " + selectedValue;
+    } else {
+        document.getElementById('selectedOption').textContent = "No option selected.";
+    }
+}
+</script>
+
+
+
+In this example:
+- We have three radio buttons with the same name attribute but different id and value attributes.
+- We have a button labeled "Submit" that, when clicked, calls the handleSelection() function.
+- Inside the handleSelection() function, we use document.querySelector() to get the selected radio button.
+- If a radio button is selected, we retrieve its value and display it in a <div> element with the id "selectedOption". If no option is selected, we display a message indicating that no option is selected.
+
+You can customize this code to perform different actions based on the selected option, such as showing/hiding content, making AJAX requests, or updating other elements on the page.
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+</head>
+<body>
+    <table id="myTable" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>30</td>
+        </tr>
+        </tbody>
+    </table>
+    <button onclick="addRow()">Add Row</button>
+
+    <script>
+        function addRow() {
+            // Get the table by ID
+            var table = document.getElementById("myTable");
+
+            // Create a new row element
+            var newRow = table.insertRow();
+
+            // Create new cells
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+
+            // Add text to the new cells
+            cell1.innerHTML = "Jane";
+            cell2.innerHTML = "25";
+        }
+    </script>
+</body>
+</html>
+
